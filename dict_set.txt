@@ -1,0 +1,16 @@
+my_dict = {'Vova':1969,'Ira':1976, 'Pola': 2015}
+print(my_dict)
+print(my_dict['Ira'])
+my_dict['Galy']=1951
+print(my_dict['Galy'])
+my_dict.update({'Luda':1956,'Kate':1996})
+a=my_dict.pop('Ira')
+print(a)
+print(my_dict)
+
+my_set={1,2,3,2,3,4,3,4,5,'h','k','h', True}
+print(my_set)
+my_set.add(9)
+my_set.add('j')
+my_set.discard(2)
+print(my_set)
